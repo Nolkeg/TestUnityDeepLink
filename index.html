@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="al:android:url" content="unitydl://FaceDL&6118b22a866c371b733e96a0">
+    <meta property="al:android:package" content="com.spacears.space.android">
+    <meta property="al:android:app_name" content="ShareSample">
+    <meta property="og:title" content="example page title" />
+    <meta property="og:type" content="website" />
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <script>
-        $(document).ready(function (){
-         if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
-            const urlParams = new URLSearchParams(window.location.search);
-            const openstore = urlParams.get('openstore');
-            if(openstore)
-            {
-                window.location.href = 'https://apps.apple.com/us/app/space-ar/id1522426030';
-            }
-         }
-        });
-    </script>
+    
 </head>
 <body>
+    <div class="mx-auto p-2" style="width: 200px;">
+        <button type="button" class="btn btn-primary bg-danger">
+            <a id="open-or-download-button" class="text-decoration-none text-white" 
+            href="unitydl://FaceDL&6118b22a866c371b733e96a0">Custom sheme</a>
+        </button>
+    </div>
 
     <div class="mx-auto p-2" style="width: 200px;">
         <button type="button" class="btn btn-primary bg-danger">
